@@ -1,35 +1,35 @@
-// let havePassport = true;
-// let haveVisa = false;
-// let haveMoney = 400000;
-// let haveWorkPermit = false;
+let havePassport = true;
+let haveVisa = false;
+let haveMoney = 400000;
+let haveWorkPermit = false;
 
-// if ((havePassport == true && haveWorkPermit == true) || (haveMoney >= 500000)) {
-//     console.log('InShaa Allah you will go to Oman')
-// }
-// else if (havePassport == true && haveVisa == true) {
-//     console.log('InShaa Allah brother you will go to Oman')
-// }
-// else {
-//     console.log('I am sorry Brother')
-// }
+if ((havePassport == true && haveWorkPermit == true) || (haveMoney >= 500000)) {
+    console.log('InShaa Allah you will go to Oman')
+}
+else if (havePassport == true && haveVisa == true) {
+    console.log('InShaa Allah brother you will go to Oman')
+}
+else {
+    console.log('I am sorry Brother')
+}
 
-// // Tour Destination 
+// Tour Destination 
 
-// let tourdestination = ["Cox'Bazar", 'Bandarban', 'Shylet', 'Rangamati', 'Kaptai']
-// console.log(tourdestination.length)
-// console.log(tourdestination.indexOf)
+let tourdestination = ["Cox'Bazar", 'Bandarban', 'Shylet', 'Rangamati', 'Kaptai']
+console.log(tourdestination.length)
+console.log(tourdestination.indexOf('Shylet'))
 
-// tourdestination[1] = 'Khagrachori';
+tourdestination[1] = 'Khagrachori';
 
-// if (tourdestination[1] == 'Bandarban') {
-//     console.log('InShaa Allah i will go to bandarban')
-// }
-// else if (tourdestination.length == 4) {
-//     console.log('Inshaa Allah pura desh ghurbo')
-// }
-// else {
-//     console.log('InShaa Allah arek somoy jabo')
-// }
+if (tourdestination[1] == 'Bandarban') {
+    console.log('InShaa Allah i will go to bandarban')
+}
+else if (tourdestination.length == 4) {
+    console.log('Inshaa Allah pura desh ghurbo')
+}
+else {
+    console.log('InShaa Allah arek somoy jabo')
+}
 
 
 // Traffic Light
@@ -59,6 +59,7 @@ const liliasNum = 47;
 const jalaisNum = 77;
 
 // Alia's Grade
+
 if (aliasNum >= 90) {
     console.log('Alia got A+')
 }
