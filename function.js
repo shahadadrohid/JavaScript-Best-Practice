@@ -1,11 +1,11 @@
-// function startFan() {
-//     console.log('Press the switch')
-//     // return
-// }
+function startFan() {
+    console.log('Press the switch')
+    // return
+}
 
-// startFan()
-// let result = startFan()
-// console.log(result)
+startFan()
+let result = startFan()
+console.log(result)
 
 function buyMilk(taka) {
     let milkPrice = 50;
@@ -25,5 +25,5 @@ function multiplyNumber(num1, num2) {
 
 var firstNumber = 10;
 var secondNumber = 10;
-var result = multiplyNumber(firstNumber, secondNumber);
-console.log(result);
+var result1 = multiplyNumber(firstNumber, secondNumber);
+console.log(result1);
